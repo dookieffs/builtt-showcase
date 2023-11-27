@@ -1,0 +1,20 @@
+.header {
+  background: #f0f0f0;
+  height: 69px;
+  > img {
+    width: 87px;
+    margin-top: 20px;
+    margin-left: 66px;
+  }
+
+  > .headerActions {
+    float: right;
+    > .cart {
+      background-image: url("../../../public/icons/cart.svg");
+      width: 25px;
+      height: 25px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  }
+}
